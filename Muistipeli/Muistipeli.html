@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Muistipeli</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>  MUISTIPELI  </h1>
+	<marquee>Made By Micael</marquee>
+    <h3>Pisteesi : <span class="" id="score">0</span></h3>
+    <h3> Aika : </h3> <h3 id="aika"></h3>
+  </div>
+  <section class="memory-game">
+    <div class="memory-card" data-id="1">
+      <img class="front-face" src="https://i.kym-cdn.com/photos/images/original/001/725/812/213.png" alt="kissa" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+    <div class="memory-card" data-id="1">
+      <img class="front-face" src="https://i.kym-cdn.com/photos/images/original/001/725/812/213.png" alt="kissa" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+
+    <div class="memory-card" data-id="2">
+      <img class="front-face" src="https://www.pngitem.com/pimgs/m/532-5320788_kitty-kitten-cat-kawaii-cute-otaku-pixel-pixelated.png" alt="kissa1" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+    <div class="memory-card" data-id="2">
+      <img class="front-face" src="https://www.pngitem.com/pimgs/m/532-5320788_kitty-kitten-cat-kawaii-cute-otaku-pixel-pixelated.png" alt="kissa1" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+
+    <div class="memory-card" data-id="3">
+      <img class="front-face" src="https://papik.pro/en/uploads/posts/2022-06/1655537295_12-papik-pro-p-cats-paw-pixel-drawings-13.png" alt="kissa2" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+    <div class="memory-card" data-id="3">
+      <img class="front-face" src="https://papik.pro/en/uploads/posts/2022-06/1655537295_12-papik-pro-p-cats-paw-pixel-drawings-13.png" alt="kissa2" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+
+    <div class="memory-card" data-id="4">
+      <img class="front-face" src="https://t3.ftcdn.net/jpg/04/00/92/02/360_F_400920269_9xYS4NPardFBiIt5avL4vkibwLTof8Qf.jpg" alt="kissa3" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+    <div class="memory-card" data-id="4">
+      <img class="front-face" src="https://t3.ftcdn.net/jpg/04/00/92/02/360_F_400920269_9xYS4NPardFBiIt5avL4vkibwLTof8Qf.jpg" alt="kissa3" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+
+    <div class="memory-card" data-id="5">
+      <img class="front-face" src="https://www.nicepng.com/png/detail/95-954008_easy-go-cats-pixel.png" alt="kissa4" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+    <div class="memory-card" data-id="5">
+      <img class="front-face" src="https://www.nicepng.com/png/detail/95-954008_easy-go-cats-pixel.png" alt="kissa4" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+
+    <div class="memory-card" data-id="6">
+      <img class="front-face" src="https://static.wikia.nocookie.net/wholesomecatsgame/images/2/2f/Hakcthskeat.png/revision/latest?cb=20200603221417" alt="kissa5" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+    <div class="memory-card" data-id="6">
+      <img class="front-face" src="https://static.wikia.nocookie.net/wholesomecatsgame/images/2/2f/Hakcthskeat.png/revision/latest?cb=20200603221417" alt="kissa5" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+	    <div class="memory-card" data-id="7">
+      <img class="front-face" src="https://img.freepik.com/premium-vector/pixel-cat-8-bit-animals-game-assets-vector-illustration_614713-168.jpg?w=2000" alt="kissa6" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+	    <div class="memory-card" data-id="7">
+      <img class="front-face" src="https://img.freepik.com/premium-vector/pixel-cat-8-bit-animals-game-assets-vector-illustration_614713-168.jpg?w=2000" alt="kissa6" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+	    <div class="memory-card" data-id="8">
+      <img class="front-face" src="https://i.pinimg.com/originals/d5/fa/63/d5fa636047992a12cc9c68a0e24bb846.png" alt="kissa7" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+	    <div class="memory-card" data-id="8">
+      <img class="front-face" src="https://i.pinimg.com/originals/d5/fa/63/d5fa636047992a12cc9c68a0e24bb846.png" alt="kissa7" />
+      <img class="back-face" src="https://lh3.googleusercontent.com/97v7uBu0TGycl_CT73Wds8T22sqLZISSszf4f4mCrPEv5yOLn840HZU4cIyEc9WNpxXhjcyKSKdTuqH7svb3zBfl1ixVtX5Jtc3VzA" alt="kissa" />
+    </div>
+  </section>
+  <script src="JSS Tiedosto.js"></script>
+</body>
+</html>
